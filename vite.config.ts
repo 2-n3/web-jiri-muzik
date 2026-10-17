@@ -4,6 +4,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/web-jiri-muzik/',
   plugins: [react()],
   resolve: {
     alias: {
